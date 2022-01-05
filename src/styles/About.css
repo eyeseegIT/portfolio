@@ -1,0 +1,28 @@
+h1 {
+  text-align: center;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.about-child {
+  flex: 1;
+  width: 1.8rem;
+}  
+
+.about-child:first-child {
+  margin-right: 50px;
+} 
+
+h3 {
+  width: 85%;
+}
+
+#headshot {
+  width: 50%;
+  float: right;
+}
