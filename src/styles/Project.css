@@ -48,11 +48,19 @@ img {
   color: black;
   visibility: hidden;
   opacity: 0;
-  font-size: 1.5rem;
-  font-weight: bold;
   text-align: center;
   padding-top: 100px;
 }
+
+.card-description > h1 {
+  color: red;
+  font-weight: bold;
+}
+
+.card-description > p {
+  color: green;
+}
+
 
 .card > a {
   text-decoration: none;
