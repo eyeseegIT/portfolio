@@ -21,10 +21,6 @@ const Contact = () => {
         <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/angelayunquach/"><img src={ Linkedin } alt="linkedin logo" className="contact-img"></img></a>
       </div>
     </section>
-    
-    <h1>Or download my resume here!</h1>
-    <section>
-    </section>
     </>
   )
 }
