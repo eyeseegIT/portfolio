@@ -27,18 +27,6 @@
   height: 335px; 
 }
 
-#logo {
-  width: auto;
-} 
-
-
-/* .card {
-  width: 275px;
-  margin: 20px;
-  text-align: center;
-  border-radius: 5px;
-} */
-
 .card-img-container {
   position: relative;
   width: 88%;

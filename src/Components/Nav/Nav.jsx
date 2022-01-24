@@ -7,7 +7,7 @@ import Logo from "../../assets/logo.png"
 const Nav = () => {
   return (
     <nav className="navigation-bar">
-      <Link to="/"><img id="logo" src={Logo} alt="portfolio logo" /></Link>
+      <Link to="/" id="logo"><img src={Logo} alt="portfolio logo" /></Link>
       <Link to="/projects">Projects</Link>
       <Link to="/about">About Me</Link>
       <Link to="/contact">Let's Connect!</Link>
