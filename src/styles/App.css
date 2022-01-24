@@ -6,7 +6,16 @@ main {
   height: 100%;
   overflow: hidden;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Amatic SC', cursive;
+}
+
+h3, p {
+  font-family: 'Kalam', cursive;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
 }
 
 nav {
@@ -42,15 +51,16 @@ nav h1 {
 #logo {
   margin: 0;
   margin-right: auto;
-  font-weight: 700;
-  font-size: 24px;
+  /* font-weight: 700;
+  font-size: 24px; */
 }
 
 .navigation-bar a {
   text-decoration: none;
   margin-left: 24px;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 1.8rem;
+  padding: 10px;
   color: black;
 }
 

@@ -18,7 +18,7 @@ const Project = () => {
           <div className="card-img-container">
             <a target="_blank" rel="noopener noreferrer" href="https://foodie-baby.herokuapp.com/"><img src={ FoodieBaby } alt="foodie baby" className="card-img"></img>
             <div className="card-description">
-              <h1>Foodie Baby</h1>
+              <h2>Foodie Baby</h2>
               <p>Help parents decide. Built using MEN stack.</p>
             </div>
             </a>
@@ -31,7 +31,7 @@ const Project = () => {
           <div className="card-img-container">
             <a target="_blank" rel="noopener noreferrer" href="https://eyeseedocs.herokuapp.com/"><img src={ EyeDocs } alt="eye see docs" className="card-img"></img>
             <div className="card-description">
-              <h1>Eye See Docs</h1>
+              <h2>Eye See Docs</h2>
               <p>Documentation place for eye docs. Built using Python and Django.</p>
             </div>
             </a>
@@ -44,7 +44,7 @@ const Project = () => {
           <div className="card-img-container">
             <a target="_blank" rel="noopener noreferrer" href="https://the-number-slots.netlify.app/"><img src={ Slot } alt="slot machine" className="card-img"></img>
             <div className="card-description">
-              <h1>The Numbers Slot</h1>
+              <h2>The Numbers Slot</h2>
               <p>Classic Vegas-style game built using Javascript, HTML, CSS.</p>
             </div>
             </a>
@@ -57,7 +57,7 @@ const Project = () => {
           <div className="card-img-container">
             <a target="_blank" rel="noopener noreferrer" href="https://make-your-marvel.herokuapp.com/"><img src={ Marvel } alt="make your marvel" className="card-img"></img>
             <div className="card-description">
-              <h1>Make Your Marvel</h1>
+              <h2>Make Your Marvel</h2>
               <p>Group endeavor. Built using MERN stack.</p>
             </div>
             </a>
