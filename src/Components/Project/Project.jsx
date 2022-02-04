@@ -19,7 +19,7 @@ const Project = () => {
             <a target="_blank" rel="noopener noreferrer" href="https://foodie-baby.herokuapp.com/"><img src={ FoodieBaby } alt="foodie baby" className="card-img"></img>
             <div className="card-description">
               <h2>Foodie Baby</h2>
-              <p>Help parents decide. Built using MEN stack.</p>
+              <p>Full stack application built using MEN stack where parents can provide and be provided with meal ideas for their baby.</p>
             </div>
             </a>
           </div>
@@ -32,7 +32,7 @@ const Project = () => {
             <a target="_blank" rel="noopener noreferrer" href="https://eyeseedocs.herokuapp.com/"><img src={ EyeDocs } alt="eye see docs" className="card-img"></img>
             <div className="card-description">
               <h2>Eye See Docs</h2>
-              <p>Documentation place for eye docs. Built using Python and Django.</p>
+              <p>Application built using Django and Python to help eye doctors view and store encountered optometric cases.</p>
             </div>
             </a>
           </div>
@@ -58,7 +58,7 @@ const Project = () => {
             <a target="_blank" rel="noopener noreferrer" href="https://make-your-marvel.herokuapp.com/"><img src={ Marvel } alt="make your marvel" className="card-img"></img>
             <div className="card-description">
               <h2>Make Your Marvel</h2>
-              <p>Group endeavor. Built using MERN stack.</p>
+              <p>Full stack application built using MERN stack.</p>
             </div>
             </a>
           </div>

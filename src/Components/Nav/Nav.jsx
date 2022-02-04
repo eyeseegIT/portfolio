@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import Logo from "../../assets/logo.png"
 
 const Nav = () => {
+
   return (
     <nav className="navigation-bar">
       <Link to="/" id="logo"><img src={Logo} alt="portfolio logo" /></Link>
