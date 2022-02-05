@@ -58,7 +58,7 @@ const Project = () => {
             <a target="_blank" rel="noopener noreferrer" href="https://make-your-marvel.herokuapp.com/"><img src={ Marvel } alt="make your marvel" className="card-img"></img>
             <div className="card-description">
               <h2>Make Your Marvel</h2>
-              <p>Full stack application built using MERN stack.</p>
+              <p>Full stack application that allows users to add their favorite Marvel characters and imagine what a comic scene between them would be like. Built using MERN stack and Marvel API.</p>
             </div>
             </a>
           </div>
