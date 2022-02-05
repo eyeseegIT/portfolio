@@ -12,6 +12,7 @@
 .card-img {
   padding: 10px;
   border: 3px double white;
+  border-radius: 5px;
   width: 300px;
   height: 335px; 
 }

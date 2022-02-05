@@ -1,11 +1,8 @@
-.contact-container {
+.contact-card {
+  padding: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.contact-card {
-  padding: 50px;
 }
 
 .contact-img {
@@ -14,4 +11,13 @@
   background-color: white;
   border-radius: 8px;
   padding: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+  .contact-container {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }

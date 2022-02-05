@@ -1,24 +1,51 @@
-.about-container {
+.about-child {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 50px;
-}
-
-.about-child {
-  flex: 1;
-  width: 1.8rem;
-}  
-
-#blurb {
-  width: 85%;
-  color: white;
+  padding: 10px;
 }
 
 #headshot {
-  width: 50%;
-  float: right;
-  width: auto;
-  height: auto;
-  margin-right: 100px;
+  width: 90%;
+  border-radius: 5px;
 }
+
+#blurb {
+  width: 100%;
+  color: white;
+}
+
+@media only screen and (min-width: 600px) {
+  .about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about-child {
+    flex: 1;
+    width: 1.8rem;
+    padding: 50px;
+  }
+  
+  #blurb {
+    width: 95%;
+  }
+
+  #headshot {
+    width: 85%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .about-child {
+    flex: 1;
+    width: 1.8rem;
+  }
+
+  #headshot {
+    float: right;
+    width: 75%;
+    margin-left: 200px;
+  }  
+} 
